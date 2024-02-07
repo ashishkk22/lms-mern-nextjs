@@ -39,4 +39,4 @@ app.all("*", (req, res, next) => {
   next(err);
 });
 
-// app.use(ErrorMiddleware);
+app.use(ErrorMiddleware);

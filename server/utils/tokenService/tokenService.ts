@@ -1,4 +1,3 @@
-import { IUser } from "../../models/user.model";
 import jwt, { Secret } from "jsonwebtoken";
 
 require("dotenv").config();
